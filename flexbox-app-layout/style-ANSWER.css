@@ -75,12 +75,12 @@ a.button {
   border-top:1px solid #E6E6E6;
 }
 
-.icon-bar i {
+.icon-bar a {
   display: block;
   font-size: 2.5rem;
   color:white;
   text-shadow:3px 3px 0 rgba(0,0,0,0.1);
-  padding-bottom: 1rem;
+  padding: 2rem;
 }
 
 .app-header {
@@ -117,6 +117,7 @@ a.button {
 */
 
 .app-header {
+  flex-basis: 200px;
   display:flex;
   align-items:center;
   justify-content:space-between;
@@ -136,9 +137,12 @@ a.button {
 */
 
 .icon-bar {
-  display:flex;
+  display: flex;
 }
 
 .icon-bar a {
-  flex:1;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
